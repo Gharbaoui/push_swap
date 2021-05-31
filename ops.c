@@ -39,7 +39,7 @@ void push_value(t_stack *dst, t_stack *src)
     }
 }
 
-void rotat_s(t_stack *s)
+void reverse_rotat_s(t_stack *s)
 {
     int lastindex;
     
@@ -54,7 +54,7 @@ void rotat_s(t_stack *s)
     }
 }
 
-void reverse_rotat_s(t_stack *s)
+void rotat_s(t_stack *s)
 {
     int tindex;
 

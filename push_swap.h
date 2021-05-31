@@ -11,6 +11,7 @@ typedef struct s_stack
     int size;
 }t_stack;
 
+void ops_intraction(t_stack *a, t_stack *b);
 int is_number(char *str);
 int ft_isdigit(char num);
 t_stack *take_inputs(char **args, int size, int *error);
@@ -25,3 +26,8 @@ void swap(int *a, int *b);
 void push_value(t_stack *dst, t_stack *src);
 void rotat_s(t_stack *s);
 void reverse_rotat_s(t_stack *s);
+
+
+void sort_three_elem(t_stack *a);
+
+
