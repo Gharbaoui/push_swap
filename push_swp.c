@@ -10,6 +10,8 @@ int main(int argc, char **argv)
     ///// check here err variable is if that so exit
     b = empty_stack(argc - 1);
     b->topindex = b->size;
-    ops_intraction(a, b);
+    swap_f_elements(a, b);
+    //ops_intraction(a, b);
     
+
 }
